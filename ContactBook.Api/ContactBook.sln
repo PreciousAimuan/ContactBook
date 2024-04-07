@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactBook.Api", "ContactBook.Api.csproj", "{24460D3D-937B-4B7A-B904-6F3EFF0058D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactBook.Auth", "..\ContactBook.Auth\ContactBook.Auth.csproj", "{2F5E3634-D37F-4D94-93C5-2872C7F07BAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactBook.Core", "..\ContactBook.Core\ContactBook.Core.csproj", "{34FA2919-903B-44EC-8CA8-5F720136BD62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactBook.Data", "..\ContactBook.Data\ContactBook.Data.csproj", "{782E2D66-F1BF-4582-A81A-EF0B1A9B084E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactBook.Infrastructure", "..\ContactBook.Infrastructure\ContactBook.Infrastructure.csproj", "{0846BD9E-E89D-4987-AD93-94648C659DE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactBook.Model", "..\ContactBook.Model\ContactBook.Model.csproj", "{50D22A4E-BAD8-4896-BBFE-DABCB2753A4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24460D3D-937B-4B7A-B904-6F3EFF0058D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24460D3D-937B-4B7A-B904-6F3EFF0058D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24460D3D-937B-4B7A-B904-6F3EFF0058D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24460D3D-937B-4B7A-B904-6F3EFF0058D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F5E3634-D37F-4D94-93C5-2872C7F07BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F5E3634-D37F-4D94-93C5-2872C7F07BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F5E3634-D37F-4D94-93C5-2872C7F07BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F5E3634-D37F-4D94-93C5-2872C7F07BAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34FA2919-903B-44EC-8CA8-5F720136BD62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34FA2919-903B-44EC-8CA8-5F720136BD62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34FA2919-903B-44EC-8CA8-5F720136BD62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34FA2919-903B-44EC-8CA8-5F720136BD62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{782E2D66-F1BF-4582-A81A-EF0B1A9B084E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{782E2D66-F1BF-4582-A81A-EF0B1A9B084E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{782E2D66-F1BF-4582-A81A-EF0B1A9B084E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{782E2D66-F1BF-4582-A81A-EF0B1A9B084E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0846BD9E-E89D-4987-AD93-94648C659DE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0846BD9E-E89D-4987-AD93-94648C659DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0846BD9E-E89D-4987-AD93-94648C659DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0846BD9E-E89D-4987-AD93-94648C659DE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50D22A4E-BAD8-4896-BBFE-DABCB2753A4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50D22A4E-BAD8-4896-BBFE-DABCB2753A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50D22A4E-BAD8-4896-BBFE-DABCB2753A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50D22A4E-BAD8-4896-BBFE-DABCB2753A4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C68CBEF5-9B7F-4D6C-9295-BE15800C4E6C}
+	EndGlobalSection
+EndGlobal
